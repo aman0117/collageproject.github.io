@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*CSS Variables*/
+:root {
+    --navbar-hight: 59px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navigation Bar*/
+p {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Navigation Bar : List Styling */
+
+
+#navid {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+
+}
+
+
+#navid ul {
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#navid ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navid ul li a {
+    font-size: 1.5rem;
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+#navid ul li a:hover {
+    color: black;
+    background-color: lightpink;
+
+}
+
+/* HOME section*/
+section {
+    height: 728px;
+    width: 10;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    background: url("./beerbackground03.jpg") no-repeat center center/cover;
+    height: 742px;
+    margin: -10px;
+    padding: 21px;
+    padding-left: 11px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    padding: 115px;
+    justify-content: center;
+    align-items: center;
+}
+
+.back h1 {
+    color: white;
+    text-align: center;
+}
+
+.backh-primary {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.back p {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+}
+
+
+/* utility Class */
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 18px;
+}
+
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 3px solid blueviolet;
+    background-color: skyblue;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: lightpink;
+}
+
+.center {
+    text-align: center;
+    height: 18px;
+}
+
+
+
+
+/* our services */
+h1.h1-primary.center {
+    padding-bottom: 108px;
+}
+
+
+p.center {
+    margin: 6px;
+}
+
+
+section.services-container {
+    height: 610px;
+}
+
+.section.services-container::before {
+    content: "";
+    position: absolute;
+    background: url("./loginpagebg1.jpg") no-repeat center center/cover;
+    height: 742px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+div#services-nav {
+    margin: 33px;
+    padding: 156px;
+}
+
+
+section.services-container {
+    align-items: center;
+    font-size: 2.1rem;
+}
+
+
+div#services-nav {
+    align-items: center;
+    height: 500px;
+    margin: -34px 243px;
+    padding: 132px 40px;
+    padding-left: 0px;
+    display: flex;
+    width: 53px;
+}
+
+.box {
+    width: 391px;
+    height: 510px;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 41px 29px;
+    padding: 1px 0px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+img {
+    display: flex;
+    margin: 68px;
+    display: flex;
+    height: 159px;
+    background-color: aliceblue;
+}
+
+
+
+/* clients our   */
+
+section#client-section {
+    background: url("./ourclientsbg3.jpg")no-repeat center/cover;
+    display: block;
+    width: 100%;
+    margin: -10px;
+    padding: 21px;
+    padding-left: 11px;
+    height: 742px;
+}
+
+h1.h1-primary.center {
+    -webkit-text-stroke: thin;
+    font-size: -webkit-xxx-large;
+    padding: 0px;
+}
+
+h1.h-primary.center {
+    margin-top: 9px;
+}
+
+
+
+
+h1.h-primary.center {
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+
+
+.client.img {
+    display: inline-grid;
+    margin: 27px;
+    padding: 0px;
+    height: 218px;
+}
+
+
+
+
+/* login page  */
+.container::before {
+    content: "";
+    position: absolute;
+    background: url("./backgroundforloginpage.jpg") no-repeat center center/cover;
+    height: 742px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.loginpage {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: darkgreen;
+    font-size: 4.1rem;
+    padding: 45px;
+    margin: 23px;
+}
+
+input.text-line {
+    margin: 0px;
+    width: 366px;
+}
+
+button.btn2 {
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: lightgreen;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.btn2 a{
+    text-decoration: none;
+
+}
+
+button.btn2:hover{
+    background-color: rgb(255, 222, 180);
+
+}
+
+
+/* LOGIN PAGER button */
+
+
+.login {
+    color: black;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav#navdi2 {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    float: right;
+}
+
+nav#navdi2 ul {
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav#navdi2 ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+nav#navdi2 ul li a {
+    color: black;
+    display: block;
+    font-size: 1.6rem;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+nav#navdi2 ul li a:hover {
+
+    color: black;
+    background-color: lightpink;
+}
+
+/* CONTACT US CSS */
+#Contact{
+    position: relative;
+    
+}
+
+#Contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    background: url('./contactbg01.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+}
+
+
+div#contact-box {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+} 
+
+div#contact-box form{
+    width: 41%;
+    margin: 150px 0px;
+}
+
+div#contact-box label{
+    font-size: 2.0rem;
+}
+ 
+.text-line{
+    font-size: 1.4rem;
+    background: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid darkred 4px;
+} 
+textarea#message {
+    background: transparent;
+    font-size: 1.3rem;
+    width: 260px;
+    margin: 21px;
+    padding: 47px;
+    display: inline-table;
+
+}
+
+
+input#email {
+    width: 366px;
+}
+
+input#name {
+    width: 361px;
+}
+
+
+
+
+/* footer CSS */
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    font-size: 1.5rem;
+}
